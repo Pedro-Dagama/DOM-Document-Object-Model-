@@ -9,8 +9,8 @@ document.getElementById("mudarTexto").addEventListener("click", function () {
 // Quando o botão com o id "modificarHtml" for clicado, execute a função
 document.getElementById("modificarHtml").addEventListener("click", function () {
     // Pegue o elemento com o id "conteudo"
-    var mod = document.getElementById("conteudo");
-    // Mude o HTML desse elemento para um novo parágrafo com texto em negrito
+    var mod = document.getElementById("conteudo"); 
+    // Mude o HTML desse elemento para um novo parágrafo com texto em negritoo
     mod.innerHTML = "<p> Novo conteudo <strong>HTML</strong>! </p>";
 });
 
