@@ -9,8 +9,8 @@ document.getElementById("mudarTexto").addEventListener("click", function () {
 // Quando o botão com o id "modificarHtml" for clicado, execute a função
 document.getElementById("modificarHtml").addEventListener("click", function () {
     // Pegue o elemento com o id "conteudo"
-    var mod = document.getElementById("conteudo"); 
-    // Mude o HTML desse elemento para um novo parágrafo com texto em negritoo
+    var mod = document.getElementById("conteudo");
+    // Mude o HTML desse elemento para um novo parágrafo com texto em negrito
     mod.innerHTML = "<p> Novo conteudo <strong>HTML</strong>! </p>";
 });
 
@@ -50,42 +50,40 @@ document.getElementById("substituirElemento").addEventListener("click", function
     }
 });
 
+/*
+Explicações sobre algumas funções do JavaScript:
 
-
-
-// Explicações sobre algumas funções do JavaScript:
-
-// join: Junta todos os elementos de um array em uma string, separados por um delimitador especificado.
+join: Junta todos os elementos de um array em uma string, separados por um delimitador especificado.
 var array = ["um", "dois", "três"];
 var string = array.join(", "); // "um, dois, três"
 
-// push: Adiciona um ou mais elementos ao final de um array e retorna o novo comprimento do array.
+push: Adiciona um ou mais elementos ao final de um array e retorna o novo comprimento do array.
 var array = ["um", "dois"];
 array.push("três"); // ["um", "dois", "três"]
 
-// querySelector: Retorna o primeiro elemento que corresponde a um seletor CSS especificado.
+querySelector: Retorna o primeiro elemento que corresponde a um seletor CSS especificado.
 var primeiroItem = document.querySelector('li'); // Retorna o primeiro <li> encontrado
 
-// querySelectorAll: Retorna todos os elementos que correspondem a um seletor CSS especificado, como uma NodeList.
+querySelectorAll: Retorna todos os elementos que correspondem a um seletor CSS especificado, como uma NodeList.
 var todosItens = document.querySelectorAll('li'); // Retorna todos os <li> encontrados
 
-// forEach: Executa uma função fornecida uma vez para cada elemento de um array ou NodeList.
+forEach: Executa uma função fornecida uma vez para cada elemento de um array ou NodeList.
 var array = ["um", "dois", "três"];
 array.forEach(function (item) {
     console.log(item); // Imprime cada item do array
-});
 
-// innerHTML: Define ou retorna o conteúdo HTML de um elemento.
+innerHTML: Define ou retorna o conteúdo HTML de um elemento.
 var elemento = document.getElementById("conteudo");
 elemento.innerHTML = "<p>Novo conteúdo HTML!</p>"; // Define o conteúdo HTML do elemento
 
-// textContent: Define ou retorna o conteúdo de texto de um nó e seus descendentes.
+textContent: Define ou retorna o conteúdo de texto de um nó e seus descendentes.
 var elemento = document.getElementById("titulo");
 elemento.textContent = "Novo texto"; // Define o conteúdo de texto do elemento
 
-// createElement: Cria um novo elemento HTML especificado.
+createElement: Cria um novo elemento HTML especificado.
 var novoParagrafo = document.createElement("p"); // Cria um novo elemento <p>
 
-// appendChild: Adiciona um nó como o último filho de um nó pai especificado.
+appendChild: Adiciona um nó como o último filho de um nó pai especificado.
 document.body.appendChild(novoParagrafo); // Adiciona o novo parágrafo ao final do corpo do documento
+*/
 
