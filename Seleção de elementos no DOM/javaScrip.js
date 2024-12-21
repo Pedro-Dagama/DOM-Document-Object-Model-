@@ -6,6 +6,11 @@ document.getElementById("btnTitulo").addEventListener("click", function () {
     document.getElementById("inputTitulo").value = titulo.textContent;
 });
 
+
+
+
+
+
 // Adiciona um evento de clique ao elemento com id "btnItensTag"
 document.getElementById("btnItensTag").addEventListener("click", function () {
     // Seleciona todos os elementos <li>
@@ -19,6 +24,11 @@ document.getElementById("btnItensTag").addEventListener("click", function () {
     // Define o valor do input com id "inputItensTag" como os textos dos itens, separados por vírgula
     document.getElementById("inputItensTag").value = texto.join(", ");
 });
+
+
+
+
+
 
 // Adiciona um evento de clique ao elemento com id "btnMensagensClass"
 document.getElementById("btnMensagensClass").addEventListener("click", function () {
@@ -34,6 +44,11 @@ document.getElementById("btnMensagensClass").addEventListener("click", function 
     document.getElementById("inputMensagens").value = texto.join(', ');
 });
 
+
+
+
+
+
 // Adiciona um evento de clique ao elemento com id "btnPrimeiroItem"
 document.getElementById("btnPrimeiroItem").addEventListener("click", function () {
     // Seleciona o primeiro elemento <li>
@@ -41,6 +56,11 @@ document.getElementById("btnPrimeiroItem").addEventListener("click", function ()
     // Define o valor do input com id "inputPrimeiroItem" como o texto do primeiro item
     document.getElementById("inputPrimeiroItem").value = primeiroItem.textContent;
 });
+
+
+
+
+
 
 // Adiciona um evento de clique ao elemento com id "btnTodosItens"
 document.getElementById("btnTodosItens").addEventListener("click", function () {
@@ -55,6 +75,11 @@ document.getElementById("btnTodosItens").addEventListener("click", function () {
     // Define o valor do input com id "inputTodosItens" como os textos dos itens, separados por vírgula
     document.getElementById("inputTodosItens").value = texto.join(", ");
 });
+
+
+
+
+
 
 /*
 Explicações sobre algumas funções do JavaScript:
@@ -77,5 +102,4 @@ forEach: Executa uma função fornecida uma vez para cada elemento de um array o
 var array = ["um", "dois", "três"];
 array.forEach(function (item) {
     console.log(item); // Imprime cada item do array
-});
 */
