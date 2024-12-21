@@ -70,7 +70,10 @@ document.getElementById("substituirElemento").addEventListener("click", function
     }
 });
 
+/*
+Explicações sobre algumas funções do JavaScript:
 
+<<<<<<< HEAD
 
 
 
@@ -78,6 +81,8 @@ document.getElementById("substituirElemento").addEventListener("click", function
 /*
 Explicações sobre algumas funções do JavaScript:
 
+=======
+>>>>>>> 4b3a92f260affd12a6abe0b7ca1bbeb96f5bcf6e
 join: Junta todos os elementos de um array em uma string, separados por um delimitador especificado.
 var array = ["um", "dois", "três"];
 var string = array.join(", "); // "um, dois, três"

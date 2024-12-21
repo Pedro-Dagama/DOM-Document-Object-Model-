@@ -6,11 +6,14 @@ document.getElementById("btnTitulo").addEventListener("click", function () {
     document.getElementById("inputTitulo").value = titulo.textContent;
 });
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 4b3a92f260affd12a6abe0b7ca1bbeb96f5bcf6e
 // Adiciona um evento de clique ao elemento com id "btnItensTag"
 document.getElementById("btnItensTag").addEventListener("click", function () {
     // Seleciona todos os elementos <li>
@@ -25,11 +28,14 @@ document.getElementById("btnItensTag").addEventListener("click", function () {
     document.getElementById("inputItensTag").value = texto.join(", ");
 });
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 4b3a92f260affd12a6abe0b7ca1bbeb96f5bcf6e
 // Adiciona um evento de clique ao elemento com id "btnMensagensClass"
 document.getElementById("btnMensagensClass").addEventListener("click", function () {
     // Seleciona todos os elementos com a classe "mensagem"
@@ -44,11 +50,14 @@ document.getElementById("btnMensagensClass").addEventListener("click", function 
     document.getElementById("inputMensagens").value = texto.join(', ');
 });
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 4b3a92f260affd12a6abe0b7ca1bbeb96f5bcf6e
 // Adiciona um evento de clique ao elemento com id "btnPrimeiroItem"
 document.getElementById("btnPrimeiroItem").addEventListener("click", function () {
     // Seleciona o primeiro elemento <li>
@@ -57,11 +66,14 @@ document.getElementById("btnPrimeiroItem").addEventListener("click", function ()
     document.getElementById("inputPrimeiroItem").value = primeiroItem.textContent;
 });
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 4b3a92f260affd12a6abe0b7ca1bbeb96f5bcf6e
 // Adiciona um evento de clique ao elemento com id "btnTodosItens"
 document.getElementById("btnTodosItens").addEventListener("click", function () {
     // Seleciona todos os elementos <li>
@@ -76,11 +88,14 @@ document.getElementById("btnTodosItens").addEventListener("click", function () {
     document.getElementById("inputTodosItens").value = texto.join(", ");
 });
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 4b3a92f260affd12a6abe0b7ca1bbeb96f5bcf6e
 /*
 Explicações sobre algumas funções do JavaScript:
 
@@ -102,4 +117,8 @@ forEach: Executa uma função fornecida uma vez para cada elemento de um array o
 var array = ["um", "dois", "três"];
 array.forEach(function (item) {
     console.log(item); // Imprime cada item do array
+<<<<<<< HEAD
+=======
+});
+>>>>>>> 4b3a92f260affd12a6abe0b7ca1bbeb96f5bcf6e
 */

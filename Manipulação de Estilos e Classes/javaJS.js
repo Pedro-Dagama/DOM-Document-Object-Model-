@@ -16,7 +16,10 @@ document.getElementById("alterarEstilo").addEventListener("click", function () {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4b3a92f260affd12a6abe0b7ca1bbeb96f5bcf6e
 // Quando o botão com o id "adicionarClasse" for clicado, execute a função
 document.getElementById("adicionarClasse").addEventListener("click", function () {
     // Pegue o elemento com o id "paragrafo"
@@ -29,7 +32,10 @@ document.getElementById("adicionarClasse").addEventListener("click", function ()
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4b3a92f260affd12a6abe0b7ca1bbeb96f5bcf6e
 // Quando o botão com o id "removerClasse" for clicado, execute a função
 document.getElementById("removerClasse").addEventListener("click", function () {
     // Pegue o elemento com o id "paragrafo"
@@ -42,7 +48,10 @@ document.getElementById("removerClasse").addEventListener("click", function () {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4b3a92f260affd12a6abe0b7ca1bbeb96f5bcf6e
 // Quando o botão com o id "alterarClasse" for clicado, execute a função
 document.getElementById("alterarClasse").addEventListener("click", function () {
     // Pegue o elemento com o id "paragrafo"
@@ -51,11 +60,14 @@ document.getElementById("alterarClasse").addEventListener("click", function () {
     alterar.classList.toggle("fundo-azul");
 });
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 4b3a92f260affd12a6abe0b7ca1bbeb96f5bcf6e
 /*
 Explicações sobre algumas propriedades do JavaScript usadas:
 
