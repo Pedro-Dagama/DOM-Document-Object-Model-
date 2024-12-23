@@ -6,11 +6,6 @@ document.getElementById("mudarTexto").addEventListener("click", function () {
     titulo.textContent = "🗿 Titulo alterado 🗿";
 });
 
-
-
-
-
-
 // Quando o botão com o id "modificarHtml" for clicado, execute a função
 document.getElementById("modificarHtml").addEventListener("click", function () {
     // Pegue o elemento com o id "conteudo"
@@ -18,11 +13,6 @@ document.getElementById("modificarHtml").addEventListener("click", function () {
     // Mude o HTML desse elemento para um novo parágrafo com texto em negrito
     mod.innerHTML = "<p> Novo conteudo <strong>HTML</strong>! </p>";
 });
-
-
-
-
-
 
 // Quando o botão com o id "adicionarElemento" for clicado, execute a função
 document.getElementById("adicionarElemento").addEventListener("click", function () {
@@ -34,11 +24,6 @@ document.getElementById("adicionarElemento").addEventListener("click", function 
     document.body.appendChild(add);
 });
 
-
-
-
-
-
 // Quando o botão com o id "removerElemento" for clicado, execute a função
 document.getElementById("removerElemento").addEventListener("click", function () {
     // Pegue o elemento com o id "conteudo"
@@ -49,11 +34,6 @@ document.getElementById("removerElemento").addEventListener("click", function ()
         conteudo.removeChild(conteudo.firstChild);
     }
 });
-
-
-
-
-
 
 // Quando clicamos no botão com o id "substituirElemento", fazemos algo
 document.getElementById("substituirElemento").addEventListener("click", function () {
@@ -69,13 +49,6 @@ document.getElementById("substituirElemento").addEventListener("click", function
         conteudo.replaceChild(novoElemento, conteudo.firstChild);
     }
 });
-
-/*
-Explicações sobre algumas funções do JavaScript:
-
-
-
-
 
 /*
 Explicações sobre algumas funções do JavaScript:
@@ -96,7 +69,7 @@ var todosItens = document.querySelectorAll('li'); // Retorna todos os <li> encon
 
 forEach: Executa uma função fornecida uma vez para cada elemento de um array ou NodeList.
 var array = ["um", "dois", "três"];
-array.forEach(function(item) {
+array.forEach(function (item) {
     console.log(item); // Imprime cada item do array
 
 innerHTML: Define ou retorna o conteúdo HTML de um elemento.

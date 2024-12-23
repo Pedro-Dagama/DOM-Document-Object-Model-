@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação DOM</title>
+</head>
+<body>
+
+    <div id="divPrincipal">
+
+        <p>parafrafo principal</p>
+
+        <ul>
+            <li id="item1"> item 1</li>
+            <li id="item2"> item 2</li>
+             <ul>
+                <li id="subitem1"> subitem 1</li>
+                <li id="subitem2"> subitem 2</li>
+             </ul>
+
+             <li id="item3">item 3</li>
+        </ul>
+    </div>
+    
+    <button onclick="acessarParent()"> acessar elemento pai</button>
+    <button onclick="listarChildren()">Listar filhos</button>
+    <button onclick="irProximo()"> ir para o proximo irmão</button>
+    <button onclick="irAnterior()"> ir para o irmao anterior</button>
+
+    <p id="resultado"> os resuldados apareceção aqui</p>
+
+    <script src="JavaS.js"></script>
+</body>
+</html>

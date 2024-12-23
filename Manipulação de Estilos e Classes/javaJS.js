@@ -28,7 +28,6 @@ document.getElementById("adicionarClasse").addEventListener("click", function ()
 
 
 
-
 // Quando o botão com o id "removerClasse" for clicado, execute a função
 document.getElementById("removerClasse").addEventListener("click", function () {
     // Pegue o elemento com o id "paragrafo"
@@ -48,11 +47,6 @@ document.getElementById("alterarClasse").addEventListener("click", function () {
     // Adicione ou remova a classe "fundo-azul" do parágrafo
     alterar.classList.toggle("fundo-azul");
 });
-
-
-
-
-
 
 /*
 Explicações sobre algumas propriedades do JavaScript usadas:
